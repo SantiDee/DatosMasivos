@@ -1,1 +1,5 @@
-
+En el examen resuelto a continuación se presentó la problemática de utilizar el algoritmo de Machine Learning llamado
+Multilayer Perceptron para clasificar un dataset en el lenguaje de programación scala, el cual es iris.csv, donde se pide 
+primero limpiar el dataset por que scala spark clasifica la última columna como string y no como variable numérica, para 
+poder utilizarlo con el algoritmo, en el código siguiente se presenta la solución al examen presentado con un valor de
+agrupación correctamente del 92%.
