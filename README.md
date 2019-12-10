@@ -1,26 +1,26 @@
-#INSTITUTO TECNOLOGICO DE TIJUANA.
+INSTITUTO TECNOLOGICO DE TIJUANA.
 
-#SUBDIRECCIÓN ACADÉMICA.
+SUBDIRECCIÓN ACADÉMICA.
 
-#DEPARTAMENTO DE SISTEMAS COMPUTACIONALES.
+DEPARTAMENTO DE SISTEMAS COMPUTACIONALES.
 
-#SEMESTRE AGOSTO-DICIEMBRE 2019.
+SEMESTRE AGOSTO-DICIEMBRE 2019.
 
-#Carrera: Ing. Tics
+Carrera: Ing. Tics
 
-#Materia: Datos Masivos
+Materia: Datos Masivos
 
-#Serie: BDD-1704 TI9A.
+Serie: BDD-1704 TI9A.
 
-#Título: Practica 1
+Título: Practica 1
 
-#Unidad: 3
+Unidad: 3
 
-#Nombre del alumno: Luis Armando Santiago Teófilo.
+Nombre del alumno: Luis Armando Santiago Teófilo.
 
-#Número de control: 15210344
+Número de control: 15210344
 
-#Nombre del maestro:Jose Christian Romero Hernandez.
+Nombre del maestro:Jose Christian Romero Hernandez.
 
 Introducción
 
