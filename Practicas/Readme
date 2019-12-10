@@ -123,6 +123,7 @@ println(mutmap)
 // 7 b . Agrega el siguiente valor al mapa("Miguel", 23)
 mutmap += ("Miguel" -> 23)
 
+
 Código
 // Práctica 3
 // En este primer algoritmo se agrego una función que después de haber efectuado
