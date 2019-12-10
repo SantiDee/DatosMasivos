@@ -22,6 +22,7 @@ Número de control: 15210344
 Nombre del maestro:Jose Christian Romero Hernandez.
 
 Introducción
+
 Las prácticas a continuación mostradas se llevaron a cabo en la materia de datos masivos, parte de la exposición 1 que abarca la unidad 2.
 
 Algoritmos
