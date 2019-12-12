@@ -1,25 +1,35 @@
-INSTITUTO TECNOLOGICO DE TIJUANA.
-SUBDIRECCIÓN ACADÉMICA.
-DEPARTAMENTO DE SISTEMAS COMPUTACIONALES.
-SEMESTRE AGOSTO-DICIEMBRE 2019.
+**INSTITUTO TECNOLOGICO DE TIJUANA.**
 
-Carrera: Ing. Tics
-Materia: Datos Masivos
-Serie: BDD-1704 TI9A.
-Título: Practicas
-Unidad: 2
-Nombre del alumno: Luis Armando Santiago Teófilo.
-Número de control: 15210344
-Nombre del maestro: Jose Christian Romero Hernandez.
+**SUBDIRECCIÓN ACADÉMICA.**
+
+**DEPARTAMENTO DE SISTEMAS COMPUTACIONALES.**
+
+**SEMESTRE AGOSTO-DICIEMBRE 2019.**
+
+**Carrera: Ing. Tics**
+
+**Materia: Datos Masivos**
+
+**Serie: BDD-1704 TI9A.**
+
+**Título: Practicas**
+
+**Unidad: 2**
+
+**Nombre del alumno: Luis Armando Santiago Teófilo.**
+
+**Número de control: 15210344**
+
+**Nombre del maestro: Jose Christian Romero Hernandez.**
 
 
-Introducción
+## Introducción
 Las prácticas a continuación mostradas se llevaron a cabo en la materia de datos masivos, 
 parte de la exposición 1 que abarca la unidad 2.
 
-Algoritmos
+## Algoritmos
 
-Correlation de P
+###### Correlation de P
 El coeficiente de correlación de Pearson es una prueba que mide la relación estadística entre dos variables continuas. 
 Si la asociación entre los elementos no es lineal, entonces el coeficiente no se encuentra representado adecuadamente.
 El coeficiente de correlación de Pearson puede tomar un rango de valores de +1 a -1. Un valor de 0 indica que no hay
@@ -27,6 +37,7 @@ asociación entre las dos variables. Un valor mayor que 0 indica una asociación
 el valor de una variable, también lo hace el valor de la otra. Un valor menor que 0 indica una asociación negativa; 
 es decir, a medida que aumenta el valor de una variable, el valor de la otra disminuye.
 
+```scala
 código en scala correlación de p.
 // Se manda a llamar a las librerías del algoritmo
 import org.apache.spark.ml.linalg.{Matrix, Vectors}
@@ -102,3 +113,5 @@ val (meanVal2, varianceVal2) = df.select(Summarizer.mean($"features"),Summarizer
  
 // Se imprime el resultado
 println(s"without weight: mean = ${meanVal2}, sum = ${varianceVal2}")
+
+```
