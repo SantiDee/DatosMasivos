@@ -3,6 +3,7 @@
 
 El siguiente examen se realizó en base  a los conocimientos obtenidos en la clase de especialidad de Datos Masivos de la carrera Ing. Tics en el lenguaje de programación scala, es un lenguaje de programación multi-paradigma diseñado para expresar patrones comunes de programación en forma concisa, elegante y con tipos seguros. Integra sutilmente características de lenguajes funcionales y orientados a objetos. La implementación actual corre en la máquina virtual de Java y es compatible con las aplicaciones Java existentes.
 
+```scala
 Código
 // maria juega baloncesto universitario y quiere ser profesional.
 // Cada temporada ella mantiene un registro de su juego.
@@ -96,3 +97,4 @@ df.groupBy(year(df("Date"))).max().show()
  
 //E
 df.groupBy(month(df("Date"))).avg().show()
+```
