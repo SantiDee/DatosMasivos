@@ -1,16 +1,28 @@
 **INSTITUTO TECNOLOGICO DE TIJUANA**
+
 **SUBDIRECCIÓN ACADÉMICA.**
+
 **DEPARTAMENTO DE SISTEMAS COMPUTACIONALES.**
+
 **SEMESTRE AGOSTO-DICIEMBRE 2019.**
 
+
 **Carrera: Ing. Tics**
+
 **Materia: Datos Masivos**
+
 **Serie: BDD-1704 TI9A.**
+
 **Título: Examen**
+
 **Unidad: 3**
+
 **Nombre del alumno: Luis Armando Santiago Teófilo.**
+
 **Número de control: 15210344**
+
 **Nombre del maestro: Jose Christian Romero Hernandez.**
+
 
 **Introducción**
 La siguiente Examen es parte de la evaluación de la unidad 3 de la materia de datos masivos impartido por el doctor 
