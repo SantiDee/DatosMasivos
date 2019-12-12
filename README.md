@@ -97,10 +97,15 @@ Como conclusión de este proyecto final para la materia de Datos Masivos imparti
  
 ## Referencias.
 Kurman, N. (2018, 21 noviembre). Comprensión del perceptrón multicapa. Recuperado 5 diciembre, 2019, de https://medium.com/@AI_with_Kain/understanding-of-multilayer-perceptron-mlp-8f179c4a135f
+
 Brid, R. A. J. E. S. H. (2018, 17 octubre). Regresión logística. Simplificado.. Recuperado 5 diciembre, 2019, dehttps://medium.com/greyatom/logistic-regression-89e496433063
+
 Patel, S. (2017, 3 abril). SVM (Máquina de vectores de soporte) - Teoría. Recuperado 5 diciembre, 2019, de https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72
+
 Roman, V. (2019, 25 mayo). Algoritmos Naive Bayes: Fundamentos e Implementación. Recuperado 5 diciembre, 2019, de https://medium.com/datos-y-ciencia/algoritmos-naive-bayes-fudamentos-e-implementaci%C3%B3n-4bcb24b307f
+
 Scala. (2018, 18 febrero). The Scala Programming Language. Recuperado 5 diciembre, 2019, de https://www.scala-lang.org/
 Bigeek. (2017, 3 octubre). Apache Spark para principiantes. Recuperado 5 diciembre, 2019, de https://blog.bi-geek.com/apache-spark-introduccion/
+
 Moro, S., Cortez, P., & Rita, A. (2014, 29 julio). Apache Spark para principiantes [Conjunto de datos]. Recuperado 5 diciembre, 2019, de https://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
  
