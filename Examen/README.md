@@ -25,6 +25,7 @@
 
 
 **Introducción**
+
 La siguiente Examen es parte de la evaluación de la unidad 3 de la materia de datos masivos impartido por el doctor 
 en tecnologías de la información José Christian Romero Hernandez se realizó gracias a la explicación del algoritmo 
 de K-means visto en la clase, realizado en el lenguaje scala con spark, se deja el código en scala y el código en github.
