@@ -1,30 +1,31 @@
-INSTITUTO TECNOLOGICO DE TIJUANA.
-SUBDIRECCIÓN ACADÉMICA.
-DEPARTAMENTO DE SISTEMAS COMPUTACIONALES.
-SEMESTRE AGOSTO-DICIEMBRE 2019.
+**INSTITUTO TECNOLOGICO DE TIJUANA.**
+**SUBDIRECCIÓN ACADÉMICA.**
+**DEPARTAMENTO DE SISTEMAS COMPUTACIONALES.**
+**SEMESTRE AGOSTO-DICIEMBRE 2019.**
 
-Carrera: Ing. Tics
-Materia: Datos Masivos
-Serie: BDD-1704 TI9A.
-Título: Examen
-Unidad: 2
-Nombre del alumno: Luis Armando Santiago Teófilo.
-Número de control: 15210344
-Nombre del maestro:Jose Christian Romero Hernandez.
+**Carrera: Ing. Tics**
+**Materia: Datos Masivos**
+**Serie: BDD-1704 TI9A.**
+**Título: Examen**
+**Unidad: 2**
+**Nombre del alumno: Luis Armando Santiago Teófilo.**
+**Número de control: 15210344**
+**Nombre del maestro:Jose Christian Romero Hernandez.**
 
 
 
-Introducción
+## Introducción
 se resolvio el siguiente examen utilizando el algoritmo Multilayer Percentron de Machine Learning, en el lenguaje scala 
 en su versión 2.4.4 y una versión de java 8 (1.8), para la correcta utilización de las librerías necesarias para el algoritmo.
 
-Explicación
+## Explicación
 En el examen resuelto a continuación se presentó la problemática de utilizar el algoritmo de Machine Learning llamado
 Multilayer Perceptron para clasificar un dataset en el lenguaje de programación scala, el cual es iris.csv, donde se pide 
 primero limpiar el dataset por que scala spark clasifica la última columna como string y no como variable numérica, 
 para poder utilizarlo con el algoritmo, en el código siguiente se presenta la solución al examen presentado con un valor
 de agrupación correctamente del 92%. 
 
+```scala
 Algoritmos Multilayer Perceptron Documentado.
 //Agregamos las librerías necesarias para trabajar con el algoritmo Multilayer Perceptron.
 import org.apache.spark.ml.classification.MultilayerPerceptronClassifier
@@ -86,3 +87,4 @@ val accuracy = evaluator.evaluate(predictionAndLabels)
  
 // Se imprime el error del modelo
 println(s"Test Error = ${(1.0 - accuracy)}")
+```
