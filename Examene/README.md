@@ -1,0 +1,100 @@
+
+## Introducción
+
+El siguiente examen se realizó en base  a los conocimientos obtenidos en la clase de especialidad de Datos Masivos de la carrera Ing. Tics en el lenguaje de programación scala, es un lenguaje de programación multi-paradigma diseñado para expresar patrones comunes de programación en forma concisa, elegante y con tipos seguros. Integra sutilmente características de lenguajes funcionales y orientados a objetos. La implementación actual corre en la máquina virtual de Java y es compatible con las aplicaciones Java existentes.
+
+```scala
+Código
+// maria juega baloncesto universitario y quiere ser profesional.
+// Cada temporada ella mantiene un registro de su juego.
+// Tabula la cantidad de veces que rompe su récord de temporada para la mayoría de los puntos
+// y la cantidad menor cantidad de puntos en un juego. Los puntos anotados en el primer juego
+//establece su récord para la temporada, y ella comienza a contar desde alli
+//Scores=[12,24,10,24]
+
+//función Breaking Records declaración de variables a utilizar
+def breakingRecords (Num:List[Int]) : Unit =
+{
+    var Minimo =Num(0)
+    var Maximo =Num(0)
+    var CMinimo = 0
+    var CMaximo =0
+    
+    //Ciclo for de comparación para verificar si rompio el records de temporada o no
+    for (i <- Num)
+    {
+        if (i<Minimo)
+        {
+            Minimo = i
+            CMinimo= CMinimo +1
+        }
+        if (i>Maximo)
+        {
+            Maximo = i
+            CMaximo = CMaximo + 1
+        }
+    }
+    println (CMaximo,CMinimo)
+}
+
+//lista con los valores de la temporada de maria "lista de Scores"
+var lista = List(10,5,20,20,4, 5, 2, 25, 1)
+var lista2 = List(3,4,21,36,10,28,35,5,24,42)
+println("Puntaje Mas Alto")
+breakingRecords(lista)
+println("Puntaje Mas Bajo")
+breakingRecords(lista2)
+
+Introducción
+
+El siguiente examen se realizó en base  a los conocimientos obtenidos en la clase de especialidad de Datos Masivos de la carrera Ing. Tics en el lenguaje de programación scala, es un lenguaje de programación multi-paradigma diseñado para expresar patrones comunes de programación en forma concisa, elegante y con tipos seguros. Integra sutilmente características de lenguajes funcionales y orientados a objetos. La implementación actual corre en la máquina virtual de Java y es compatible con las aplicaciones Java existentes.
+
+Código
+/ punto 1
+import org.apache.spark.sql.SparkSession 
+ 
+val spark = SparkSession.builder().getOrCreate()
+ 
+// punto 2
+val df = spark.read.option("header", "true").option("inferSchema","true")csv("Netflix_2011_2016.csv") 
+ 
+// punto 3
+df.show() 
+ 
+// punto 4
+df.printSchema() 
+ 
+// punto 5
+df.head(5) 
+ 
+ // punto 6
+df.describe().show()
+ 
+// punto 7
+val df2 = df.withColumn("HV Ratio", df("High")*df("Volume"))
+ 
+// punto 9
+// la columna Close significa como cerro ese dia la bolsa
+ 
+// punto 10
+df.select(max("Volume")).show()
+ 
+df.select(min("Volume")).show()
+ 
+//punto 11
+//A
+df.filter($"Close" < 600).count()
+ 
+//B
+val res = df.select($"High").filter($"High">500).count()
+val por = (res * 1.0 )/100.0
+ 
+//C
+var total = df.select(corr($"high",$"Volume")).show()
+ 
+//D
+df.groupBy(year(df("Date"))).max().show()
+ 
+//E
+df.groupBy(month(df("Date"))).avg().show()
+```
