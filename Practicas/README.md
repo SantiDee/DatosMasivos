@@ -1,5 +1,5 @@
 
-Introducción
+## Introducción
 
 los siguientes 3 ejercicios en el lenguaje de programación scala es un lenguaje de programación multi-paradigma diseñado 
 para expresar patrones comunes de programación en forma concisa, elegante y con tipos seguros. Integra sutilmente 
@@ -7,7 +7,7 @@ características de lenguajes funcionales y orientados a objetos. La implementac
 de Java y es compatible con las aplicaciones Java existentes , fueron posible desarrollarlos gracias a los conocimientos
 obtenidos en las primeras secciones de la clase de especialidad de la carrera de Ing. Tics datos masivos.
 
-
+```scala
 Código
 
 // practica 1
@@ -61,9 +61,9 @@ variable.slice(5,9)
 //6. Dada la tupla (2,4,5,1,2,3,3.1416,23) regresa el número 3.1416
 var x = (2,4,5,1,2,3,3.1416,23)
 println(x,7)
+```
 
-
-Introducción
+## Introducción
 
 los siguientes 3 ejercicios en el lenguaje de programación scala es un lenguaje de programación multi-paradigma diseñado
 para expresar patrones comunes de programación en forma concisa, elegante y con tipos seguros. Integra sutilmente 
@@ -71,7 +71,7 @@ características de lenguajes funcionales y orientados a objetos. La implementac
 Java y es compatible con las aplicaciones Java existentes , fueron posible desarrollarlos gracias a los conocimientos 
 obtenidos en las primeras secciones de la clase de especialidad de la carrera de Ing. Tics datos masivos.
 
-
+```scala
 Código
 //Practice 2
 // 1. Crea una lista llamada "lista" con los elementos "rojo", "blanco", "negro"
@@ -160,3 +160,4 @@ def funcion1(n: Double): Double =
 
 }
 funcion1(9)
+```
