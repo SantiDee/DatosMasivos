@@ -1,21 +1,32 @@
-INSTITUTO TECNOLOGICO DE TIJUANA.
-SUBDIRECCIÓN ACADÉMICA.
-DEPARTAMENTO DE SISTEMAS COMPUTACIONALES.
-SEMESTRE AGOSTO-DICIEMBRE 2019.
+**INSTITUTO TECNOLOGICO DE TIJUANA.**
 
-Carrera: Ing. Tics
-Materia: Datos Masivos
-Serie: BDD-1704 TI9A.
-Título: Practica 1
-Unidad: 3
-Nombre del alumno: Luis Armando Santiago Teófilo.
-Número de control: 15210344
-Nombre del maestro: lorenzo Jose Christian Romero Hernandez.
+**SUBDIRECCIÓN ACADÉMICA.**
 
-Introducción
+**DEPARTAMENTO DE SISTEMAS COMPUTACIONALES.**
+
+**SEMESTRE AGOSTO-DICIEMBRE 2019.**
+
+**Carrera: Ing. Tics**
+
+**Materia: Datos Masivos
+
+**Serie: BDD-1704 TI9A.**
+
+**Título: Practica 1**
+
+**Unidad: 3**
+
+**Nombre del alumno: Luis Armando Santiago Teófilo.**
+
+**Número de control: 15210344**
+
+**Nombre del maestro: lorenzo Jose Christian Romero Hernandez.**
+
+## Introducción
 La siguiente practica se realizo gracias a la explicación del algoritmo de regresión logística visto en la clase
 de datos masivos, realizado en el lenguaje scala con spark, se deja el código en scala y el código en github.
 
+```scala
 Código
 //importamos Librerias A Utilizar
 import org.apache.spark.ml.feature.{VectorAssembler, StringIndexer, VectorIndexer, OneHotEncoder}
@@ -70,13 +81,13 @@ val metrics = new MulticlassMetrics(predictionAndLabels)
 println("Confusion matrix:")
 println(metrics.confusionMatrix)
 metrics.accuracy
+```
 
-
-Introducción
+## Introducción
 La siguiente practica se realizo gracias a la explicación del algoritmo de K-means visto en la clase de datos masivos,
 realizado en el lenguaje scala con spark, se deja el código en scala y el código en github.
 
-K-means
+## K-means
 K-medias es un método de agrupamiento, que tiene como objetivo la partición de un conjunto de n observaciones en k grupos
 en el que cada observación pertenece al grupo cuyo valor medio es más cercano. Es un método utilizado en minería de datos.
 La agrupación del conjunto de datos puede ilustrarse en una partición del espacio de datos en celdas de Voronoi.
@@ -87,6 +98,7 @@ los dos algoritmos usan los centros que los grupos utilizan para modelar los dat
 grupos de extensión espacial comparable, mientras que el mecanismo expectation-maximization permite que los grupos tengan
 formas diferentes.
 
+```scala
 Código
 // Se crea un sesion en Spark
 import org.apache.spark.sql.SparkSession
@@ -110,3 +122,4 @@ println(s"Within set sum of Squared Errors = $WSSE")
 // Se muestran el movimiento de los centroides
 println("Cluster Centers: ")
 model.clusterCenters.foreach(println)
+```
