@@ -16,9 +16,9 @@
 
 **Nombre del alumno: Luis Armando Santiago Teófilo.**
 
-****Número de control: 15210344
+**Número de control: 15210344**
 
-****Nombre del maestro:Jose Christian Romero Hernandez.
+**Nombre del maestro:Jose Christian Romero Hernandez.**
 
 ## Introducción
 
